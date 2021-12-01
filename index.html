@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator with Javascript</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+  <main id="main">
+    <div class="container">
+
+        <h2>
+          <i class="fas fa-quote-left"></i>
+          <span class="quote" id="quote"></span>
+          <i class="fas fa-quote-right"></i>
+        </h2>
+        <p class="author" id="author"></p>
+
+      <hr>
+      <div class="buttons">
+        <a class="twitter" id="tweet" href="https://twitter.com/intent/tweet?text=Greetings" data-size="large"
+        target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+        <button class="next" id="btn" onclick="getNewQuote(); changeBackgroundColor()">Next quote</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="javascript/index.js"></script>
+
+</body>
+
+</html>

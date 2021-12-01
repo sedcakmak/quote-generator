@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 90vw;
+  margin: 0;
+}
+
+#main {
+  background-color: transparent;
+  border-radius: 4px;
+  border:1px solid black;
+  box-shadow: 1px 1px 1px 2px rgb(248, 143, 160);
+  height: 45%;
+  width: 45%;
+  padding: 2rem;
+  transition: main 1s;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  /* width: 80%; */
+  height: 40%;
+  padding: 2rem;
+
+}
+
+.buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.btn {
+  color:black;
+}
+
+.twitter
+{
+    border: 1px solid rgb(102, 179, 255);
+    border-radius: 4px;
+    background-color: rgb(102, 179, 255);
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    width: 60px;
+    height: 35px;
+    line-height: 40px;
+}
+
+h2, .author {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  transition: color 1s;
+}
+
+.author {
+  font-weight: bolder;
+}
