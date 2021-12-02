@@ -9,6 +9,7 @@ I built a quote generator with a background color change onclick to brush up my 
 * I was unsure about which html tags to use, for example I used main and styled it in CSS but not sure if it's the right approach.
 * I still have problems with centering elements and responsive designing. 
 * I couldn't center the twitter bird! display:flex on the parent element was messing it somehow:)
+* The twitter button didn't show in Chrome on LocalHost. It acts as if the button doesn't exist:) Not sure why, maybe adblocker? (Works fine on GitHub page)
 * The places of the buttons shift depending on the length of the quotes. I really don't know if this is a solvable issue. (I could wrap them up in a container and give a fixed height. Not sure if this will prevent overflow)
 * In some quotes, the quotation mark is left alone in a single line (due to length of the quote). Changing the width of the container just creates new ones:) I'm not sure how to solve this one either.
 * I added the first sentence appearing before generating quotes at the last minute. It solved some of my styling issues, but I couldn't style the sentence itself with CSS, as it messed up my javascript codes.
