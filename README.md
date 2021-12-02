@@ -1,4 +1,5 @@
-#Quote Generator
+# Quote Generator
+
 I built a quote generator with a background color change onclick to brush up my Javascript skills. I got the idea here: https://dev.to/codefoxx/15-beginner-javascript-projects-to-improve-your-front-end-skills-5bcj and my main inspiration was this: https://dev.to/nehasoni__/random-quote-generator-using-html-css-and-javascript-3gbp
 
 ## The problems I couldn't solve (yet):
